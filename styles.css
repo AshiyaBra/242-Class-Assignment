@@ -1,3 +1,4 @@
+/* Structure */
 body,
 html {
   height: 100%;
@@ -8,30 +9,28 @@ html {
 
 .parallax {
   height: 100%;
-  opacity: 0.65;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; /* So we can center content inside */
+  position: relative;
 }
 
-.home {
+.fig-1 {
   background-image: url("images/products.webp");
 }
 
-.face {
+.fig-2 {
   background-image: url("images/alot.webp");
 }
 
-.leash {
+.fig-3 {
     background-image: url("images/four.webp");
   }
 
 .info-section {
-  background-color: #ABB2BD;
+  background-color: #D88EAB;
   font-size: 36px;
   padding: 1%;
   color: white;
@@ -59,7 +58,7 @@ img {
 /* Main Menu */
 #main-menu {
   z-index: 1;
-  background-color: #FADD3A;
+  background-color: #B32C61;
   position: fixed;
   top: 0;
   width: 100%;
@@ -85,12 +84,15 @@ img {
 /* Typography */
 .parallax h1 {
   text-align: center;
-  color: white;
+  color: #C13A6F;
   margin: 0;
   padding: 0;
   position: relative;
   top: 50%;
   font-size: 5em;
+  background-color: white;
+  width: 50%;
+  border: 10px solid #B32C61;
 }
 
 .parallax h3 {
@@ -117,7 +119,7 @@ img {
   }
 }
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+/* Parallax */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
