@@ -1,0 +1,52 @@
+/* Structure */
+.parallax {
+    height: 100%;
+    opacity: 0.65;
+
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+  
+.home {
+    background-image: url("images/peng-close.png");
+}
+  
+.face {
+    background-image: url("images/jasp-house.jpg");
+}
+  
+.leash {
+    background-image: url("images/jasp-leash.jpg");
+}
+  
+.info-section {
+    background-color: #595a5c;
+    font-size: 36px;
+    padding: 1%;
+    color: white;
+}
+  
+.info-section section {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+  
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+  
+.info-section img {
+    max-width: 300px;
+}
+  
+/* Parallax */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}
