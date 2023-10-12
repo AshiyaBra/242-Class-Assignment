@@ -19,19 +19,19 @@ html {
 }
 
 .home {
-  background-image: url("images/peng-close.png");
+  background-image: url("images/products.webp");
 }
 
 .face {
-  background-image: url("images/group.webp");
+  background-image: url("images/alot.webp");
 }
 
 .leash {
-  background-image: url("images/cool.jpg");
-}
+    background-image: url("images/four.webp");
+  }
 
 .info-section {
-  background-color: #595a5c;
+  background-color: #ABB2BD;
   font-size: 36px;
   padding: 1%;
   color: white;
@@ -59,7 +59,7 @@ img {
 /* Main Menu */
 #main-menu {
   z-index: 1;
-  background-color: #595a5c;
+  background-color: #FADD3A;
   position: fixed;
   top: 0;
   width: 100%;
@@ -100,12 +100,6 @@ img {
   padding: 0;
   position: relative;
   top: 25%;
-  font-size: 3em;
-}
-
-.down-arrow {
-  text-decoration: none;
-  color: white;
   font-size: 3em;
 }
 
